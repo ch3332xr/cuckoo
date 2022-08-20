@@ -5,8 +5,10 @@ echo cuckoo | passwd cuckoo --stdin
 sudo apt-get install curl
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 sudo apt-get install python
+sudo apt-get install python-pip
 sudo python get-pip.py
 sudo apt-get install -y python-dev libffi-dev libssl-dev libfuzzy-dev libtool flex autoconf libjansson-dev git
+sudo apt-get install python-virtualenv python-setuptools
 sudo apt-get install -y python-setuptools
 sudo apt-get install -y libjpeg-dev zlib1g-dev swig
 sudo apt-get install -y mongodb
